@@ -385,6 +385,7 @@ namespace :test do
     }
     test_on_sdk.call("5.1")
     test_on_sdk.call("6.1")
+    test_on_sdk.call("7.0")
 
     if tests_succeeded
       puts "\nUnit tests passed.\n\n"
@@ -464,7 +465,8 @@ namespace :test do
 
         # Use system so we see the tests' output
         results_dir = fresh_results_dir!("iphone", sdk)
-        if system("#{base_test_command} -output \"#{results_dir}\" -sim_device 'iPhone' -sim_version #{sdk}")
+        # Use the 3.5" iPhone Retina because that can support all 3 of our target SDKs
+        if system("#{base_test_command} -output \"#{results_dir}\" -sim_device 'iPhone Retina (3.5-inch)' -sim_version #{sdk}")
           puts "iPhone integration tests succeeded on iOS #{sdk}.\n\n"
         else
           puts "iPhone integration tests failed on iOS #{sdk}.\n\n"
@@ -473,6 +475,7 @@ namespace :test do
       }
       test_on_sdk.call("5.1")
       test_on_sdk.call("6.1")
+      test_on_sdk.call("7.0")
 
       if tests_succeeded
         puts "\niPhone integration tests passed.\n\n"
@@ -500,6 +503,7 @@ namespace :test do
       }
       test_on_sdk.call("5.1")
       test_on_sdk.call("6.1")
+      test_on_sdk.call("7.0")
 
       if tests_succeeded
         puts "\niPad integration tests passed.\n\n"
