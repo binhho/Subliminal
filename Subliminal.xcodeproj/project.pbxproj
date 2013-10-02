@@ -70,6 +70,10 @@
 		F0271B00162E0B950098F5F2 /* SLTestController+AppHooks.m in Sources */ = {isa = PBXBuildFile; fileRef = F0271AFE162E0B950098F5F2 /* SLTestController+AppHooks.m */; };
 		F02DF30817EC064F00BE28BF /* UIScrollView+SLProgrammaticScrolling.h in Headers */ = {isa = PBXBuildFile; fileRef = F02DF30617EC064F00BE28BF /* UIScrollView+SLProgrammaticScrolling.h */; };
 		F02DF30917EC064F00BE28BF /* UIScrollView+SLProgrammaticScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = F02DF30717EC064F00BE28BF /* UIScrollView+SLProgrammaticScrolling.m */; };
+		F034C1EB17FF4E1600754E2D /* SLUIAElement+CustomGestures.h in Headers */ = {isa = PBXBuildFile; fileRef = F034C1E917FF4E1600754E2D /* SLUIAElement+CustomGestures.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F034C1EC17FF4E1600754E2D /* SLUIAElement+CustomGestures.m in Sources */ = {isa = PBXBuildFile; fileRef = F034C1EA17FF4E1600754E2D /* SLUIAElement+CustomGestures.m */; };
+		F034C1EF17FF77ED00754E2D /* SLGestureRecorder+SLUIAElement.h in Headers */ = {isa = PBXBuildFile; fileRef = F034C1ED17FF77ED00754E2D /* SLGestureRecorder+SLUIAElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F034C1F017FF77ED00754E2D /* SLGestureRecorder+SLUIAElement.m in Sources */ = {isa = PBXBuildFile; fileRef = F034C1EE17FF77ED00754E2D /* SLGestureRecorder+SLUIAElement.m */; };
 		F03C55E4170C32BE00079021 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0AC809716BB299500C5D5C0 /* CoreGraphics.framework */; };
 		F043469F175ACE3A00D91F7F /* NSObject+SLAccessibilityDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = F043469D175ACE3A00D91F7F /* NSObject+SLAccessibilityDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F04346A0175ACE3A00D91F7F /* NSObject+SLAccessibilityDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = F043469E175ACE3A00D91F7F /* NSObject+SLAccessibilityDescription.m */; };
@@ -117,6 +121,8 @@
 		F08B86EB16859C8D00C4FE44 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F08B86DB16859C4000C4FE44 /* libOCMock.a */; };
 		F08B87F21685A00400C4FE44 /* SharedSLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F08B87F11685A00400C4FE44 /* SharedSLTests.m */; };
 		F08B87F51685A07B00C4FE44 /* SLTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F08B87F41685A07B00C4FE44 /* SLTestTests.m */; };
+		F08D264817FBB0E5000D5D9E /* SLElementCustomGestureTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F08D264617FBB0E5000D5D9E /* SLElementCustomGestureTest.m */; };
+		F08D264917FBB0E5000D5D9E /* SLElementCustomGestureTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F08D264717FBB0E5000D5D9E /* SLElementCustomGestureTestViewController.m */; };
 		F090AE7016D9E01D000F0B6F /* SLElementVisibilityTestHidden.xib in Resources */ = {isa = PBXBuildFile; fileRef = F090AE6D16D9E01D000F0B6F /* SLElementVisibilityTestHidden.xib */; };
 		F090AE7116D9E01D000F0B6F /* SLElementVisibilityTestLowAlpha.xib in Resources */ = {isa = PBXBuildFile; fileRef = F090AE6E16D9E01D000F0B6F /* SLElementVisibilityTestLowAlpha.xib */; };
 		F090AE7216D9E01D000F0B6F /* SLElementVisibilityTestOffscreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F090AE6F16D9E01D000F0B6F /* SLElementVisibilityTestOffscreen.xib */; };
@@ -178,6 +184,10 @@
 		F0D2405C1683F7130031B67C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0D2405A1683F7130031B67C /* InfoPlist.strings */; };
 		F0D240671683F8520031B67C /* SLTestControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D240661683F8520031B67C /* SLTestControllerTests.m */; };
 		F0D2406A1683F9800031B67C /* libSubliminal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0695D8B16011515000B05D0 /* libSubliminal.a */; };
+		F0D8453317FE2331002F16DB /* SLGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = F0D8453117FE2331002F16DB /* SLGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0D8453417FE2331002F16DB /* SLGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D8453217FE2331002F16DB /* SLGesture.m */; };
+		F0D8453717FE2522002F16DB /* SLGestureRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = F0D8453517FE2522002F16DB /* SLGestureRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0D8453817FE2522002F16DB /* SLGestureRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D8453617FE2522002F16DB /* SLGestureRecorder.m */; };
 		F0E80D8816DB2CEB00945D25 /* SLElementVisibilityTestElementContainerHidden.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0E80D8516DB2CEB00945D25 /* SLElementVisibilityTestElementContainerHidden.xib */; };
 		F0E80D8916DB2CEB00945D25 /* SLElementVisibilityTestElementCovered.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0E80D8616DB2CEB00945D25 /* SLElementVisibilityTestElementCovered.xib */; };
 		F0E80D8A16DB2CEB00945D25 /* SLElementVisibilityTestElementOffscreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0E80D8716DB2CEB00945D25 /* SLElementVisibilityTestElementOffscreen.xib */; };
@@ -294,6 +304,10 @@
 		F0271AFE162E0B950098F5F2 /* SLTestController+AppHooks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SLTestController+AppHooks.m"; sourceTree = "<group>"; };
 		F02DF30617EC064F00BE28BF /* UIScrollView+SLProgrammaticScrolling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+SLProgrammaticScrolling.h"; path = "../UIAutomation/User Interface Elements/UIScrollView+SLProgrammaticScrolling.h"; sourceTree = "<group>"; };
 		F02DF30717EC064F00BE28BF /* UIScrollView+SLProgrammaticScrolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+SLProgrammaticScrolling.m"; path = "../UIAutomation/User Interface Elements/UIScrollView+SLProgrammaticScrolling.m"; sourceTree = "<group>"; };
+		F034C1E917FF4E1600754E2D /* SLUIAElement+CustomGestures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SLUIAElement+CustomGestures.h"; sourceTree = "<group>"; };
+		F034C1EA17FF4E1600754E2D /* SLUIAElement+CustomGestures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SLUIAElement+CustomGestures.m"; sourceTree = "<group>"; };
+		F034C1ED17FF77ED00754E2D /* SLGestureRecorder+SLUIAElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SLGestureRecorder+SLUIAElement.h"; sourceTree = "<group>"; };
+		F034C1EE17FF77ED00754E2D /* SLGestureRecorder+SLUIAElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SLGestureRecorder+SLUIAElement.m"; sourceTree = "<group>"; };
 		F043469D175ACE3A00D91F7F /* NSObject+SLAccessibilityDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SLAccessibilityDescription.h"; sourceTree = "<group>"; };
 		F043469E175ACE3A00D91F7F /* NSObject+SLAccessibilityDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SLAccessibilityDescription.m"; sourceTree = "<group>"; };
 		F04346A5175AD10200D91F7F /* NSObject+SLVisibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SLVisibility.h"; sourceTree = "<group>"; };
@@ -344,6 +358,8 @@
 		F08B87F01685A00400C4FE44 /* SharedSLTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedSLTests.h; sourceTree = "<group>"; };
 		F08B87F11685A00400C4FE44 /* SharedSLTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedSLTests.m; sourceTree = "<group>"; };
 		F08B87F41685A07B00C4FE44 /* SLTestTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLTestTests.m; sourceTree = "<group>"; };
+		F08D264617FBB0E5000D5D9E /* SLElementCustomGestureTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLElementCustomGestureTest.m; sourceTree = "<group>"; };
+		F08D264717FBB0E5000D5D9E /* SLElementCustomGestureTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLElementCustomGestureTestViewController.m; sourceTree = "<group>"; };
 		F090AE6D16D9E01D000F0B6F /* SLElementVisibilityTestHidden.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLElementVisibilityTestHidden.xib; sourceTree = "<group>"; };
 		F090AE6E16D9E01D000F0B6F /* SLElementVisibilityTestLowAlpha.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLElementVisibilityTestLowAlpha.xib; sourceTree = "<group>"; };
 		F090AE6F16D9E01D000F0B6F /* SLElementVisibilityTestOffscreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLElementVisibilityTestOffscreen.xib; sourceTree = "<group>"; };
@@ -409,6 +425,10 @@
 		F0D2405B1683F7130031B67C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F0D240601683F7130031B67C /* Subliminal Unit Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Subliminal Unit Tests-Prefix.pch"; sourceTree = "<group>"; };
 		F0D240661683F8520031B67C /* SLTestControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLTestControllerTests.m; sourceTree = "<group>"; };
+		F0D8453117FE2331002F16DB /* SLGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLGesture.h; sourceTree = "<group>"; };
+		F0D8453217FE2331002F16DB /* SLGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLGesture.m; sourceTree = "<group>"; };
+		F0D8453517FE2522002F16DB /* SLGestureRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLGestureRecorder.h; sourceTree = "<group>"; };
+		F0D8453617FE2522002F16DB /* SLGestureRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLGestureRecorder.m; sourceTree = "<group>"; };
 		F0E80D8516DB2CEB00945D25 /* SLElementVisibilityTestElementContainerHidden.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLElementVisibilityTestElementContainerHidden.xib; sourceTree = "<group>"; };
 		F0E80D8616DB2CEB00945D25 /* SLElementVisibilityTestElementCovered.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLElementVisibilityTestElementCovered.xib; sourceTree = "<group>"; };
 		F0E80D8716DB2CEB00945D25 /* SLElementVisibilityTestElementOffscreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLElementVisibilityTestElementOffscreen.xib; sourceTree = "<group>"; };
@@ -468,6 +488,7 @@
 				06953E3A178FDA3700B3D1B7 /* Touch and Hold */,
 				F0CC7597173B092B00E8F94A /* Tapping */,
 				F0CC7596173B092300E8F94A /* Dragging */,
+				F08D264217FBB06A000D5D9E /* Custom */,
 			);
 			name = "SLElement Gestures and Actions Tests";
 			sourceTree = "<group>";
@@ -734,6 +755,7 @@
 				F0C07A4E1704009E00C93F93 /* SLWindow.m */,
 				DB501DC717B9669A001658CB /* SLStatusBar.h */,
 				DB501DC817B9669A001658CB /* SLStatusBar.m */,
+				F0D8452D17FE22D9002F16DB /* Custom Gestures */,
 			);
 			path = "User Interface Elements";
 			sourceTree = "<group>";
@@ -783,6 +805,15 @@
 				F08B86DD16859C4000C4FE44 /* OCMockTestsTouch.octest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F08D264217FBB06A000D5D9E /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				F08D264617FBB0E5000D5D9E /* SLElementCustomGestureTest.m */,
+				F08D264717FBB0E5000D5D9E /* SLElementCustomGestureTestViewController.m */,
+			);
+			name = Custom;
 			sourceTree = "<group>";
 		};
 		F0A3F63917A716FC007529C3 /* SLTextView Tests */ = {
@@ -919,6 +950,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F0D8452D17FE22D9002F16DB /* Custom Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				F0D8453117FE2331002F16DB /* SLGesture.h */,
+				F0D8453217FE2331002F16DB /* SLGesture.m */,
+				F0D8453517FE2522002F16DB /* SLGestureRecorder.h */,
+				F0D8453617FE2522002F16DB /* SLGestureRecorder.m */,
+				F034C1E917FF4E1600754E2D /* SLUIAElement+CustomGestures.h */,
+				F034C1EA17FF4E1600754E2D /* SLUIAElement+CustomGestures.m */,
+				F034C1ED17FF77ED00754E2D /* SLGestureRecorder+SLUIAElement.h */,
+				F034C1EE17FF77ED00754E2D /* SLGestureRecorder+SLUIAElement.m */,
+			);
+			name = "Custom Gestures";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -928,6 +974,7 @@
 			files = (
 				F0695E1C16014491000B05D0 /* Subliminal.h in Headers */,
 				F0695E1D16014491000B05D0 /* SLTestController.h in Headers */,
+				F0D8453717FE2522002F16DB /* SLGestureRecorder.h in Headers */,
 				F0695E1E16014491000B05D0 /* SLTest.h in Headers */,
 				F0695E1F16014491000B05D0 /* SLTerminal.h in Headers */,
 				F0695E2016014491000B05D0 /* SLUIAElement.h in Headers */,
@@ -945,6 +992,7 @@
 				F0C07A4F1704009E00C93F93 /* SLWindow.h in Headers */,
 				F0C07A531704011400C93F93 /* SLKeyboard.h in Headers */,
 				F0C07A57170401E500C93F93 /* SLWebView.h in Headers */,
+				F0D8453317FE2331002F16DB /* SLGesture.h in Headers */,
 				F05C4F90171406EF00A381BC /* SLTerminal+ConvenienceFunctions.h in Headers */,
 				F05C51E5171C8AE000A381BC /* SLMainThreadRef.h in Headers */,
 				F0A04E1D1749F70F002C7520 /* SLElement.h in Headers */,
@@ -954,10 +1002,12 @@
 				F00800CE174C1C64001927AC /* SLPopover.h in Headers */,
 				F043469F175ACE3A00D91F7F /* NSObject+SLAccessibilityDescription.h in Headers */,
 				F04346AF175AD63E00D91F7F /* SLAccessibilityPath.h in Headers */,
+				F034C1EF17FF77ED00754E2D /* SLGestureRecorder+SLUIAElement.h in Headers */,
 				F04346A7175AD10200D91F7F /* NSObject+SLVisibility.h in Headers */,
 				F0A3F63417A715AE007529C3 /* SLTextView.h in Headers */,
 				DB501DC917B9669A001658CB /* SLStatusBar.h in Headers */,
 				0657C0E2181528B8007E72DF /* SLKeyboard+Internal.h in Headers */,
+				F034C1EB17FF4E1600754E2D /* SLUIAElement+CustomGestures.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1176,18 +1226,22 @@
 				F0695DE4160138DF000B05D0 /* SLUIAElement.m in Sources */,
 				F0695DE5160138DF000B05D0 /* SLLogger.m in Sources */,
 				F0695DE7160138DF000B05D0 /* SLTerminal.m in Sources */,
+				F034C1F017FF77ED00754E2D /* SLGestureRecorder+SLUIAElement.m in Sources */,
 				F0695DE8160138DF000B05D0 /* SLTest.m in Sources */,
+				F034C1EC17FF4E1600754E2D /* SLUIAElement+CustomGestures.m in Sources */,
 				F0695DE9160138DF000B05D0 /* SLTestController.m in Sources */,
 				F0271B00162E0B950098F5F2 /* SLTestController+AppHooks.m in Sources */,
 				F02DF30917EC064F00BE28BF /* UIScrollView+SLProgrammaticScrolling.m in Sources */,
 				CAC388061641CD7500F995F9 /* SLStringUtilities.m in Sources */,
 				CAC388401643503C00F995F9 /* NSObject+SLAccessibilityHierarchy.m in Sources */,
 				CA75E78516697C0000D57E92 /* SLDevice.m in Sources */,
+				F0D8453817FE2522002F16DB /* SLGestureRecorder.m in Sources */,
 				F0C07A391703F95B00C93F93 /* SLAlert.m in Sources */,
 				F0C07A481703FEF600C93F93 /* SLButton.m in Sources */,
 				F0C07A4C1704002100C93F93 /* SLTextField.m in Sources */,
 				F0C07A501704009E00C93F93 /* SLWindow.m in Sources */,
 				F0C07A541704011400C93F93 /* SLKeyboard.m in Sources */,
+				F0D8453417FE2331002F16DB /* SLGesture.m in Sources */,
 				F0C07A58170401E500C93F93 /* SLWebView.m in Sources */,
 				F05C4F91171406EF00A381BC /* SLTerminal+ConvenienceFunctions.m in Sources */,
 				F05C51E6171C8AE000A381BC /* SLMainThreadRef.m in Sources */,
@@ -1218,6 +1272,7 @@
 				F0AC80E616BCF91800C5D5C0 /* SLTestCaseViewController.m in Sources */,
 				06953E3F178FDA7100B3D1B7 /* SLElementTouchAndHoldTest.m in Sources */,
 				F01B2B6D16D2C55900DBA391 /* SLElementMatchingTest.m in Sources */,
+				F08D264917FBB0E5000D5D9E /* SLElementCustomGestureTestViewController.m in Sources */,
 				F01B2B6E16D2C55900DBA391 /* SLElementMatchingTestViewController.m in Sources */,
 				F0CEA00216D60EAD008A3B4A /* SLDeviceTest.m in Sources */,
 				F0CEA00316D60EAD008A3B4A /* SLDeviceTestViewController.m in Sources */,
@@ -1241,6 +1296,7 @@
 				F089F9E31745FB7E00DF1F25 /* SLKeyboardTestViewController.m in Sources */,
 				F05D2B061746B55C0089DB9E /* SLStaticElementTest.m in Sources */,
 				F05D2B071746B55C0089DB9E /* SLStaticElementTestViewController.m in Sources */,
+				F08D264817FBB0E5000D5D9E /* SLElementCustomGestureTest.m in Sources */,
 				F00800C7174B3349001927AC /* SLButtonTest.m in Sources */,
 				F00800C8174B3349001927AC /* SLButtonTestViewController.m in Sources */,
 				F00800E2174C2E0A001927AC /* SLPopoverTest.m in Sources */,
