@@ -241,6 +241,8 @@
  */
 - (void)tap;
 
+- (void)doubleTap;
+
 /**
  Touches and holds the specified element.
 
